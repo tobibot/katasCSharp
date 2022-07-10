@@ -12,10 +12,8 @@ public class Kata
 
     for(var i = 0; i < a.Length; i++) 
     {
-        if (c.Contains(a[i]))
-        {
+        if (c.Contains(a[i]))        
             deleteFlags[i] = true;           
-        }
         
     }
 
